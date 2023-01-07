@@ -26,10 +26,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  padding: 350px 200px 0 0;
+  padding: 100px 200px 0 0;
 }
 .header-container {
   text-align: right;
+  margin-top: 200px;
 }
 .header-title {
   font-weight: 700;
@@ -52,7 +53,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px 200px;
+  padding: 100px 200px;
+  margin-top: 50px;
   gap: 80px;
 }
 .failure-title {

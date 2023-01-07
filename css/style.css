@@ -24,6 +24,7 @@
 .header {
   background-image: url(../images/banner/banner.png);
   background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   padding: 215px 200px 0 0;
 }

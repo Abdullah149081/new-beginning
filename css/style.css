@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  height: 64px;
+  padding: 20px 25px;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.section-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #151414;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+/* header design  */
+.header {
+  background-image: url(../images/banner/banner.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 215px 200px 0 0;
+}
+.header-container {
+  text-align: right;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 50px;
+  color: #151414;
+  margin-bottom: 25px;
+}
+.header-description {
+  color: #444343;
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+.btn-contact {
+  background-color: #00643b;
+  color: #ffffff;
+}
+
+/* failure style  */
+.failure-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 200px;
+  gap: 80px;
+}
+.failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 25px;
+}
+.failure-description {
+  color: #444343;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+.failure-details li {
+  list-style: none;
+  margin-bottom: 10px;
+  color: #444343;
+}
+.failure-details i {
+  margin-right: 20px;
+  color: #00643b;
+}
+
+/* plan style  */
+.plans-container {
+  padding: 50px 230px;
+}
+.plan-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+.plan-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin: 20px 0;
+}
+.plan-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+
+/* Recent Blogs  */
+.blogs-container {
+  display: flex;
+  gap: 25px;
+  padding: 0 230px;
+}
+.blog-wrap {
+  background-color: #ffe5f1;
+  padding: 40px 30px;
+  border-radius: 5px;
+}
+.blog-wrap:hover {
+  background-color: #fff8e1;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.blog-wrap img {
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.blog-title {
+  margin-bottom: 20px;
+}
+.blog-description {
+  margin-bottom: 20px;
+  color: #444343;
+  text-align: justify;
+}
+.read-btn {
+  height: 40px;
+  font-size: 14px;
+  padding: 10px 10px;
+  font-weight: 500;
+  border: 2px solid #ff6e31;
+}
+
+/* positive mindset style  */
+.plus {
+  padding: 130px 230px;
+}
+.plus-container {
+  background-image: url("../images/watch.png"), linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  height: 300px;
+  border-radius: 8px;
+}
+.puls-content {
+  padding: 60px;
+}
+.plus-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.call-btn {
+  color: #f15b22;
+}
+
+/* footer style  */
+.footer {
+  background: #151414;
+  padding: 130px 230px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.footer .info-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #f8f8f8;
+  margin-bottom: 20px;
+}
+.footer .info-description {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer .social-contact i {
+  margin-right: 20px;
+  font-size: 30px;
+  color: #fff8e1;
+}
+.footer .contact-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.footer .contact-details input {
+  background-color: #151414;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  height: 30px;
+  width: 325px;
+  padding: 21px;
+  margin-bottom: 16px;
+}
+.footer .sub-btn {
+  color: #ff6e31;
+}
